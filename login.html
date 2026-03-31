@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login App</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="box">
+    <h2 id="title">Login</h2>
+
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="handleAuth()">Login</button>
+
+    <p id="message"></p>
+
+    <p id="toggleText">
+      Don't have an account?
+      <span onclick="toggleMode()">Sign up</span>
+    </p>
+
+  </div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
